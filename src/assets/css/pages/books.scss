@@ -1,0 +1,40 @@
+.box {
+  height: 50%;
+  background: #eee;
+}
+
+.row {
+  overflow-x: scroll;
+  padding: 2rem;
+  height: 100%;
+}
+
+.col {
+  height: 300px;
+  
+}
+
+.card {
+  &:hover {
+    background: rgb(187, 179, 150);
+  }
+}
+
+.card-img {
+  width: 50%;
+  margin: auto;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  &:hover {
+    color: white;
+  }
+  &:active {
+    border: none;
+  }
+}

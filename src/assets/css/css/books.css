@@ -1,0 +1,39 @@
+.box {
+  height: 50%;
+  background: #eee;
+}
+
+.row {
+  overflow-x: scroll;
+  padding: 2rem;
+  height: 100%;
+}
+
+.col {
+  height: 300px;
+}
+
+.card:hover {
+  background: #bbb396;
+}
+
+.card-img {
+  width: 50%;
+  margin: auto;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn:active {
+  border: none;
+}
